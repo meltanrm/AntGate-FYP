@@ -1,6 +1,7 @@
+//**********************************************************************************
 // Code to operate stepper motor 
 // For connecting with Arduino UNOs, stepPin must be connected to Arduino ~ PWM pins
-
+//**********************************************************************************
 
 // Define Constants
 // Connections to A4988
