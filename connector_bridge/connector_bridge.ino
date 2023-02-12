@@ -10,7 +10,8 @@ const int dirPin = 2;  // Direction
 const int stepPin = 5; // Step ~
 
 // Motor steps per rotation (full rotation = 200) 
-const int STEPS_PER_REV = 50; // 90 degrees
+const int STEPS_PER_REV = 16; // 70 degrees
+
 
 void setup() {
 // Setup the pins as Outputs
@@ -29,8 +30,8 @@ void loop() {
     delayMicroseconds(4000); 
   }
 
-  // waits for 8 seconds
-  delay(8000);
+  // waits for 1 seconds
+  delay(1000);
 
   // rotates 90˚ anticlockwise
   digitalWrite(dirPin,LOW); 
@@ -42,5 +43,6 @@ void loop() {
     delayMicroseconds(4000); 
   }
   
-  delay(8000);
+  // waits for 1 seconds
+  delay(1000);
 }
