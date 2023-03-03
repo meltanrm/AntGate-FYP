@@ -30,9 +30,9 @@ void loop() {
 
   for(int x = 0; x < STEPS_PER_REV; x++) {
     digitalWrite(stepPin,HIGH); 
-    delayMicroseconds(3000); // note: at delay of 2000, my boi got flung off the stick onto the ground 
+    delayMicroseconds(500); // note: at delay of 2000, my boi got flung off the stick onto the ground 
     digitalWrite(stepPin,LOW); 
-    delayMicroseconds(3000); 
+    delayMicroseconds(500); 
   }
 
   delay(3000);

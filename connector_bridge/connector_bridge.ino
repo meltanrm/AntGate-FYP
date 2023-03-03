@@ -10,7 +10,7 @@ const int dirPin = 2;  // Direction
 const int stepPin = 5; // Step ~
 
 // Motor steps per rotation (full rotation = 200) 
-const int STEPS_PER_REV = 16; // 70 degrees
+const int STEPS_PER_REV = 50; // 90 degrees
 
 
 void setup() {
@@ -20,29 +20,30 @@ void setup() {
 }
 
 void loop() {
-  // rotates clockwise
-  digitalWrite(dirPin,HIGH); 
+  // LOW rotates anticlockwise
+  // HIGH rotates clockwise
+  digitalWrite(dirPin,LOW); 
 
   for(int x = 0; x < STEPS_PER_REV; x++) {
     digitalWrite(stepPin,HIGH); 
-    delayMicroseconds(4000); // note: at delay of 2000, my boi got flung off the stick onto the ground 
+    delayMicroseconds(500); // note: at delay of 2000, my boi got flung off the stick onto the ground 
     digitalWrite(stepPin,LOW); 
-    delayMicroseconds(4000); 
+    delayMicroseconds(500); 
   }
 
-  // waits for 1 seconds
-  delay(2000);
+  // waits for 2 seconds
+  delay(6000);
 
   // rotates 90˚ anticlockwise
   digitalWrite(dirPin,LOW); 
   
   for(int x = 0; x < STEPS_PER_REV; x++) {
     digitalWrite(stepPin,HIGH); 
-    delayMicroseconds(4000); 
+    delayMicroseconds(500); 
     digitalWrite(stepPin,LOW); 
-    delayMicroseconds(4000); 
+    delayMicroseconds(500); 
   }
   
   // waits for 1 seconds
-  delay(2000);
+  delay(6000);
 }
