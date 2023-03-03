@@ -20,7 +20,7 @@ void setup() {
 }
 
 void loop() {
-  // rotates 90˚ clockwise
+  // rotates clockwise
   digitalWrite(dirPin,HIGH); 
 
   for(int x = 0; x < STEPS_PER_REV; x++) {
@@ -31,7 +31,7 @@ void loop() {
   }
 
   // waits for 1 seconds
-  delay(1000);
+  delay(2000);
 
   // rotates 90˚ anticlockwise
   digitalWrite(dirPin,LOW); 
@@ -44,5 +44,5 @@ void loop() {
   }
   
   // waits for 1 seconds
-  delay(1000);
+  delay(2000);
 }
