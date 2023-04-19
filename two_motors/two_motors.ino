@@ -12,7 +12,7 @@ const int dirPin_B = 2;  // Direction
 const int stepPin_B = 5; // Step ~
 
 // Motor steps per rotation (full rotation = 200) 
-const int steps_A = 20; // 10 degrees
+const int steps_A = 30; // 10 degrees
 const int steps_B = 40; // 
 
 void setup() {
@@ -26,7 +26,7 @@ void loop() {
   // LOW rotates anticlockwise
   // HIGH rotates clockwise
   digitalWrite(dirPin_A,LOW);
-  digitalWrite(dirPin_B,LOW); 
+  digitalWrite(dirPin_B,HIGH); 
 
   for(int x = 0; x < steps_A; x++) {
     digitalWrite(stepPin_A,HIGH); 
@@ -47,8 +47,7 @@ void loop() {
 
   // changes direction
   digitalWrite(dirPin_A,HIGH);
-  digitalWrite(dirPin_B,HIGH); 
- 
+  digitalWrite(dirPin_B,LOW); 
   
   for(int x = 0; x < steps_A; x++) {
     digitalWrite(stepPin_A,HIGH);
