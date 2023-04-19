@@ -26,24 +26,24 @@ void loop() {
 
   for(int x = 0; x < STEPS_PER_REV; x++) {
     digitalWrite(stepPin,HIGH); 
-    delayMicroseconds(500); // note: at delay of 2000, my boi got flung off the stick onto the ground 
+    delayMicroseconds(1000); // note: at delay of 2000, my boi got flung off the stick onto the ground 
     digitalWrite(stepPin,LOW); 
-    delayMicroseconds(500); 
+    delayMicroseconds(1000); 
   }
 
   // waits for 2 seconds
-  delay(6000);
+  delay(3000);
 
   // rotates 90˚ anticlockwise
-  digitalWrite(dirPin,LOW); 
+  digitalWrite(dirPin,HIGH); 
   
   for(int x = 0; x < STEPS_PER_REV; x++) {
     digitalWrite(stepPin,HIGH); 
-    delayMicroseconds(500); 
+    delayMicroseconds(1000); 
     digitalWrite(stepPin,LOW); 
-    delayMicroseconds(500); 
+    delayMicroseconds(1000); 
   }
   
   // waits for 1 seconds
-  delay(6000);
+  delay(3000);
 }
