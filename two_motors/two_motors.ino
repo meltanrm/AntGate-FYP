@@ -43,7 +43,7 @@ void loop() {
   }
 
   // waits for 2 seconds
-  delay(3000);
+  delay(12000);
 
   // changes direction
   digitalWrite(dirPin_A,HIGH);
@@ -64,5 +64,5 @@ void loop() {
   }
 
   // waits for 1 seconds
-  delay(3000);
+  delay(12000);
 }
