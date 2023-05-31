@@ -1,5 +1,8 @@
-// trying to use one arduino to control two motors to turn at different frequencies 
-// modified from https://www.tommycoolman.com/2021/07/31/control-two-independent-stepper-motors-with-an-arduino/
+
+//**********************************************************************************
+// Code modified from https://www.tommycoolman.com/2021/07/31/control-two-independent-stepper-motors-with-an-arduino/
+// Attempts to use one arduino to turn two motors at different frequencies
+//**********************************************************************************
 
 #define PUL1_PIN    9
 #define DIR1_PIN    8

@@ -26,12 +26,12 @@ void loop() {
 
   for(int x = 0; x < STEPS_PER_REV; x++) {
     digitalWrite(stepPin,HIGH); 
-    delayMicroseconds(1000); // note: at delay of 2000, my boi got flung off the stick onto the ground 
+    delayMicroseconds(1000); // note: at delay of 2000 or less, ants get flung off the bridge
     digitalWrite(stepPin,LOW); 
     delayMicroseconds(1000); 
   }
 
-  // waits for 2 seconds
+  // waits for 3 seconds
   delay(3000);
 
   // rotates 90˚ anticlockwise
@@ -44,6 +44,6 @@ void loop() {
     delayMicroseconds(1000); 
   }
   
-  // waits for 1 seconds
+  // waits for 3 seconds
   delay(3000);
 }

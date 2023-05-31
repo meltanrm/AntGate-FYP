@@ -1,6 +1,6 @@
 
 //**********************************************************************************
-// Code to operate two motors
+// Code to operate two motors from one arduino
 // Motor A functions as connector bridge to limit number of ants on the set up
 // Motor B functions as selector bridge to direct ants towards sort bin 
 //**********************************************************************************

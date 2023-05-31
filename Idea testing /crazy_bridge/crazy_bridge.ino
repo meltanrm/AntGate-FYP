@@ -30,7 +30,7 @@ void loop() {
 
   for(int x = 0; x < STEPS_PER_REV; x++) {
     digitalWrite(stepPin,HIGH); 
-    delayMicroseconds(500); // note: at delay of 2000, my boi got flung off the stick onto the ground 
+    delayMicroseconds(500); // note: at delay of 2000 or less, ants get flung off the bridge
     digitalWrite(stepPin,LOW); 
     delayMicroseconds(500); 
   }
