@@ -9,5 +9,6 @@ In this repo, you will find the relevant STL files and code used to construct an
 
 <b> Acknowledgements </b>
 <li>Fabian Plum, who created the neural network</li>
-<li>Y3</li>
+<li>Y3 Group for their help with modifying the files in the network</li>
+<li>Finn Wagner-Douglas for designing the funnel</li>
 
