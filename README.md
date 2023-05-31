@@ -7,7 +7,7 @@ In this repo, you will find the relevant STL files and code used to construct an
 <li>tracker.py</li>
 <li>THE_STICK_YOLO.py</li>
 
-<b> Acknowledgements </b>
+<br><b> Acknowledgements </b>
 <li>Fabian Plum, who created the neural network</li>
 <li>Y3 Group for their help with modifying the files in the network</li>
 <li>Finn Wagner-Douglas for designing the funnel</li>
