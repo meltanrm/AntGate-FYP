@@ -10,5 +10,5 @@ In this repo, you will find the relevant STL files and code used to construct an
 <br><b> Acknowledgements </b>
 <li>Fabian Plum, who created the neural network</li>
 <li>Y3 Group for their help with modifying the files in the network</li>
-<li>Finn Wagner-Douglas for designing the funnel</li> <p style="color:red"> can't findit
+<li>Finn Wagner-Douglas for designing the funnel</li> <p style="color:red"> can't findit<p>
 
