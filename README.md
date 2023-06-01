@@ -1,15 +1,15 @@
 # AntGate-FYP
 
-In this repo, you will find the relevant STL files and code used to construct an automated ant size sorter system. 
+In this repo, you will find the STL files and code used to construct an automated ant size sorter system in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/Final%20Product">Final Product</a> folder. The relevant files and code used for prototyping and idea iteration can be found in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/Prototypes">Prototypes</a> folder.
 
 <b>Integrating ant detection input from the neural network</b>
-<br>The neural network for ant detection is already integrated into this project in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/OAKD%20Operation">OAKD Operation folder</a>, and with the arduino code in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/oakd_to_motor">oakd_to_motor</a> folder. However, to obtain the most updated version of the neural network (especially when it eventually gains weight estimation capacity!), clone the <a href="https://github.com/FabianPlum/TheStick">original repo</a> and replacing the following files with the correspondingly named files in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/OAKD%20Operation">OAKD Operation folder</a>:
-<li>tracker.py</li>
-<li>THE_STICK_YOLO.py</li>
+<br>You will need <a href="https://github.com/FabianPlum/TheStick">TheStick</a> repo and to follow the instructions written there. Replace TheStick's tracker.py and THE_STICK_YOLO.py files with the modified files found in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/OAKD%20Operation">OAKD Operation folder</a>.
 
-<br><b> Acknowledgements </b>
-<li>Fabian Plum, who created the neural network</li>
-<li>Y3 Group for their help with modifying the files in the network</li>
-<li>Finn Wagner-Douglas for designing the funnel</li> 
+You will also need the arduino code in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/oakd_to_motor">oakd_to_motor</a> folder.
+
+<b>Recording videos using the OAK-D cameras</b>
+<br>This is by no means a necessary part of the AntGate system, however should you want to use record videos using the OAK-D cameras, use the <a href="https://github.com/nimirz/FilmAnts">FilmAnts</a> repo. Should there be problems in running the script, replacing the files with those in <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/Prototypes/OAKD%20recording%20videos">OAKD recording videos</a> seemed to do the trick for me. 
+
+<li>Finn Wagner-Douglas, who CADed the funnel</li> 
 # can't findit
 
