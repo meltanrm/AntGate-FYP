@@ -4,8 +4,8 @@
 //**********************************************************************************
 
 // Connections to A4988
-const int dirPin = 2;  // Direction
-const int stepPin = 5; // Step ~
+const int dirPin = 8;  // Direction
+const int stepPin = 9; // Step ~
 
 // Motor steps per rotation (full rotation = 200) 
 const int STEPS_PER_REV = 25; // 45 degrees 

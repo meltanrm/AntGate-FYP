@@ -1,3 +1,6 @@
+# Modified from code by Fabian Plum, Annie Szeto and Lok Lau
+
+
 from pathlib import Path
 from tracker import Tracker
 import cv2

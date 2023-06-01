@@ -1,10 +1,9 @@
 '''
     File name         : tracker.py
     File Description  : Tracker Using Kalman Filter & Hungarian Algorithm
-    Author            : Fabian Plum (adapted from Srini Ananthakrishnan)
-    Date created      : 07/14/2017
-    Date last modified: 01/12/2021
+    Date last modified: 01/06/2023
     Python Version    : 3.7
+    Modified from code by Fabian Plum, Annie Szeto and Lok Lau 
 '''
 
 # Import python libraries
