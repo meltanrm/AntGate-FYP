@@ -10,7 +10,7 @@ You will also need the arduino code in the <a href="https://github.com/meltanrm/
 <b>Recording videos using the OAK-D cameras</b>
 <br>This is by no means a necessary part of the AntGate system, however should you want to use record videos using the OAK-D cameras, use the <a href="https://github.com/nimirz/FilmAnts">FilmAnts</a> repo. Should there be problems in running the script, replacing the files with those in <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/Prototypes/OAKD%20recording%20videos">OAKD recording videos</a> seemed to do the trick for me. 
 
-<br><b> Acknowledgements </b>
+<b> Acknowledgements </b>
 <li>Fabian Plum, who created the neural network</li>
 <li>Annie Szeto and Lok Lau for the initial modifications made to the tracker.py and THE_STICK_YOLO.py files</li>
 <li>Finn Wagner-Douglas for designing the funnel</li> 
