@@ -3,7 +3,7 @@
 In this repo, you will find the STL files and code used to construct an automated ant size sorter system in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/Final%20Product">Final Product</a> folder. The relevant files and code used for prototyping and idea iteration can be found in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/Prototypes">Prototypes</a> folder.
 
 <b>Integrating ant detection input from the neural network</b>
-<br>You will need <a href="https://github.com/FabianPlum/TheStick">TheStick</a> repo and to follow the instructions written there. Replace TheStick's tracker.py and THE_STICK_YOLO.py files with the modified files found in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/OAKD%20Operation">OAKD Operation folder</a>.
+<br>You will need <a href="https://github.com/FabianPlum/TheStick">TheStick</a> repo and to follow the instructions written there. Replace TheStick's tracker.py and THE_STICK_YOLO.py files with the modified files found in the <a href="[https://github.com/meltanrm/AntGate-FYP/tree/main/OAKD%20Operation](https://github.com/meltanrm/AntGate-FYP/tree/main/Final%20Product/OAKD%20neural%20network)">OAKD Neural Network</a>.
 
 You will also need the arduino code in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/oakd_to_motor">oakd_to_motor</a> folder.
 
