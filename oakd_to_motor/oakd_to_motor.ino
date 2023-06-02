@@ -2,15 +2,17 @@
 // Test code to take input from the cameras, and output to the motors 
 // Not doing weight classification at the moment, just recognising the insect's presence
 // motor turns when ant is in frame
-//**********************************************************************************
-const int dirPin = 2;  // Direction
-const int stepPin = 5; // Step ~
 
-const int STEPS_PER_REV = 50; // 90 degrees
+// Modified from code by Annie Szeto and Lok Lau
+//**********************************************************************************
+const int dirPin = 8;  // Direction
+const int stepPin = 9; // Step ~
+
 String inString = "";
 int inChar;
 
-
+// Motor steps per rotation (full rotation = 200) 
+const int STEPS_PER_REV = 30; // 54 degrees
 // 
 void setup() {
   pinMode(stepPin,OUTPUT); 
