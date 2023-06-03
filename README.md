@@ -5,6 +5,9 @@ In this repo, you will find the STL files and code used to construct an automate
 <b>Integrating ant detection input from the neural network</b>
 <br>You will need <a href="https://github.com/FabianPlum/TheStick">TheStick</a> repo and to follow the instructions written there. Replace TheStick's tracker.py and THE_STICK_YOLO.py files with the modified files found in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/Final%20Product/OAKD%20neural%20network">OAKD Neural Network folder</a>.
 
+In THE_STICK_YOLO.py, make sure to change the following line to reflect the correct port:
+<br><code>ser = serial.Serial("/dev/cu.usbmodem141401", 115200, timeout=None)</code>
+
 You will also need the arduino code in the <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/oakd_to_motor">oakd_to_motor</a> folder.
 
 <b>Recording videos using the OAK-D cameras</b>
