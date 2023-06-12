@@ -13,5 +13,7 @@ You will also need the arduino code in the <a href="https://github.com/meltanrm/
 <b>Recording videos using the OAK-D cameras</b>
 <br>This is by no means a necessary part of the AntGate system, however should you want to use record videos using the OAK-D cameras, use the <a href="https://github.com/nimirz/FilmAnts">FilmAnts</a> repo. Should there be problems in running the script, replacing the files with those in <a href="https://github.com/meltanrm/AntGate-FYP/tree/main/Prototypes/OAKD%20recording%20videos">OAKD recording videos</a> seemed to do the trick for me. 
 
-<b><li>Finn Wagner-Douglas, who CADed the funnel</li> </b>
+<b>Acknowledgements</b> 
+<li>CAD funnel files were created by Finn Wagner-Douglas</li>
+<li>CAD box_connector files were created by Corvin Bischoff</li>
 
