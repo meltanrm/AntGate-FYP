@@ -12,7 +12,7 @@ String inString = "";
 int inChar;
 
 // Motor steps per rotation (full rotation = 200) 
-const int STEPS_PER_REV = 30; // 54 degrees
+const int STEPS_PER_REV = 20; // 54 degrees
 // 
 void setup() {
   pinMode(stepPin,OUTPUT); 
@@ -37,13 +37,27 @@ void loop() {
   {
     digitalWrite(dirPin,LOW); 
 
+    delay(6000); // to let ant get on before moving 
+
+    for(int x = 0; x < STEPS_PER_REV; x++) {
+      digitalWrite(stepPin,HIGH); 
+      delayMicroseconds(2000); // note: at delay of 2000, my boi got flung off the stick onto the ground 
+      digitalWrite(stepPin,LOW); 
+      delayMicroseconds(2000); 
+    }
+    // waits for 3 seconds
+    delay(3000);
+
+    digitalWrite(dirPin,HIGH); 
+
     for(int x = 0; x < STEPS_PER_REV; x++) {
       digitalWrite(stepPin,HIGH); 
       delayMicroseconds(1000); // note: at delay of 2000, my boi got flung off the stick onto the ground 
       digitalWrite(stepPin,LOW); 
       delayMicroseconds(1000); 
     }
-    // waits for 2 seconds
+    // waits for 3 seconds
     delay(3000);
+    
   } 
 }
